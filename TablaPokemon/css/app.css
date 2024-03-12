@@ -1,0 +1,22 @@
+*{
+    font-size: 25px;
+    box-sizing: border-box;
+    border-radius: .2cm;
+  }
+  
+  .tbl {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    
+  
+  }
+  
+  section button:last-child{
+    grid-column: span 3;
+  }
+  
+  input{
+    grid-column: span 3;
+  }
+  
+  

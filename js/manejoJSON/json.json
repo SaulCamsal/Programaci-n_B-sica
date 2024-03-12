@@ -1,0 +1,10 @@
+{
+    "nombre": "Harry",
+    "edad" : 35,
+    "interes": ["autos","policia","ronear"],
+    "direccion" : {
+        "calle": "Calle Mulberry",
+        "numero": 1256,
+        "ciudad": "Los Santos"
+    } 
+}
