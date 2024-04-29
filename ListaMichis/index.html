@@ -9,24 +9,26 @@
         </style>
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="/ListaMichis/js/app.js"></script>
-    <h2> Cat Facts </h2>
-    <main id="content">
-
-    </main>
-
-
-    <section id="cardTemplate" style="display: none;">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-    </section>
+  <h2> Cat Facts </h2>
+  <div class="container text-center">
+    <main id="content" class="row">
     
+    </main>
+  </div>
+  
+  <section id="cardTemplate" style="display: none;">
+    <div class="card" style="width: 18rem; margin: 8px;">
+      <img src="_URL_IMAGE_" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Fact # _FACT_NUMBER_</h5>
+        <p class="card-text">_FACT_TEXT_</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </section>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="/ListaMichis/js/app.js"></script>
 </body>
 </html>

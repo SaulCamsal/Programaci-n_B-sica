@@ -22,7 +22,7 @@ const cardTemplate = document.getElementById("cardTemplate").innerHTML
 //      [JS Promise]
 fetch(url).then((response) => 
     response.json()
-).then((data) =>{ 
+).then((response) =>{ 
     document.getElementById("content").innerHTML= ""
     let i=0;
     response.data.forEach(fact => {
