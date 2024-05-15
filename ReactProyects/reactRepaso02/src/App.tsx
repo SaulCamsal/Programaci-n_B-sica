@@ -9,6 +9,9 @@ function App() {
       <div className='container text-center'>
         <main id='content' className='row'>
           <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
         </main>
       </div>
     </>
